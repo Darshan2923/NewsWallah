@@ -1,0 +1,15 @@
+#news {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.headline {
+    color: white;
+    font-size: 2em;
+    font-family: Poppins;
+}
+
+
+@media(max-width:1024px) {
+    #news {}
+}

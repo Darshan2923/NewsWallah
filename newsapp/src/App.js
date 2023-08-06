@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import MainBody from './components/MainBody';
+import News from './components/News';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
-      <MainBody />
+      <News />
       <Footer />
     </>
   );
