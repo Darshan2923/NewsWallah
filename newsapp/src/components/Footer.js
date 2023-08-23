@@ -2,7 +2,16 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <>
+            <footer>
+                <div className="footer-content">
+                    <div className="footer-content__text">
+                        <p className='privacy'>Privacy</p>
+                        <p>Terms of Use</p>
+                    </div>
+                </div>
+            </footer>
+        </>
     )
 }
 
