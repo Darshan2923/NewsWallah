@@ -1,0 +1,21 @@
+.footer-content__text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.footer-content__text p:hover {
+    background: linear-gradient(25deg, rgb(54, 10, 188) 0.5%,
+            rgb(128, 0, 111), rgb(197, 33, 134) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.privacy {
+    margin-right: 30px;
+    transition: 0.5s ease;
+}
